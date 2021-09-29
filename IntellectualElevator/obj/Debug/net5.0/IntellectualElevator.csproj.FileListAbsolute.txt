@@ -1,0 +1,16 @@
+C:\Users\zakha\source\repos\IntellectualElevator\IntellectualElevator\bin\Debug\net5.0\IntellectualElevator.exe
+C:\Users\zakha\source\repos\IntellectualElevator\IntellectualElevator\bin\Debug\net5.0\IntellectualElevator.deps.json
+C:\Users\zakha\source\repos\IntellectualElevator\IntellectualElevator\bin\Debug\net5.0\IntellectualElevator.runtimeconfig.json
+C:\Users\zakha\source\repos\IntellectualElevator\IntellectualElevator\bin\Debug\net5.0\IntellectualElevator.runtimeconfig.dev.json
+C:\Users\zakha\source\repos\IntellectualElevator\IntellectualElevator\bin\Debug\net5.0\IntellectualElevator.dll
+C:\Users\zakha\source\repos\IntellectualElevator\IntellectualElevator\bin\Debug\net5.0\ref\IntellectualElevator.dll
+C:\Users\zakha\source\repos\IntellectualElevator\IntellectualElevator\bin\Debug\net5.0\IntellectualElevator.pdb
+C:\Users\zakha\source\repos\IntellectualElevator\IntellectualElevator\obj\Debug\net5.0\IntellectualElevator.csprojAssemblyReference.cache
+C:\Users\zakha\source\repos\IntellectualElevator\IntellectualElevator\obj\Debug\net5.0\IntellectualElevator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zakha\source\repos\IntellectualElevator\IntellectualElevator\obj\Debug\net5.0\IntellectualElevator.AssemblyInfoInputs.cache
+C:\Users\zakha\source\repos\IntellectualElevator\IntellectualElevator\obj\Debug\net5.0\IntellectualElevator.AssemblyInfo.cs
+C:\Users\zakha\source\repos\IntellectualElevator\IntellectualElevator\obj\Debug\net5.0\IntellectualElevator.csproj.CoreCompileInputs.cache
+C:\Users\zakha\source\repos\IntellectualElevator\IntellectualElevator\obj\Debug\net5.0\IntellectualElevator.dll
+C:\Users\zakha\source\repos\IntellectualElevator\IntellectualElevator\obj\Debug\net5.0\ref\IntellectualElevator.dll
+C:\Users\zakha\source\repos\IntellectualElevator\IntellectualElevator\obj\Debug\net5.0\IntellectualElevator.pdb
+C:\Users\zakha\source\repos\IntellectualElevator\IntellectualElevator\obj\Debug\net5.0\IntellectualElevator.genruntimeconfig.cache
