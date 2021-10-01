@@ -16,19 +16,20 @@ namespace IntellectualElevator
         public int CurrentFloor { get => _currentFloor; }
         public int DestinationFloor { get => _destinationFloor; }
 
-        public Person(int weight)
+        public Person(string name, int floor, int weight)
         {
+            _name = name;
             _weight = weight;
-            _currentFloor = GetRandomCurrentFloor();
+            _currentFloor = floor;
             _destinationFloor = GetRandomDestinationFloor();
         }
 
-        private int GetRandomCurrentFloor()
-        {
-            Random random = new Random();
-            int randomCurretFloor = random.Next(Building.baseFloor, Building.floors);
-            return randomCurretFloor;
-        }
+        //private int GetRandomCurrentFloor()
+        //{
+        //    Random random = new Random();
+        //    int randomCurretFloor = random.Next(Building.baseFloor, Building.floors);
+        //    return randomCurretFloor;
+        //}
 
         private int GetRandomDestinationFloor()
         {
@@ -36,10 +37,7 @@ namespace IntellectualElevator
             int randomDestinationFloor = random.Next(Building.baseFloor, Building.floors);
             return randomDestinationFloor;
         }
-
-        public void CallElevator()
-        {
-
-        }
+        
+        
     }
 }
