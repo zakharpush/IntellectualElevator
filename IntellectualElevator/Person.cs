@@ -8,20 +8,21 @@ namespace IntellectualElevator
 {
     public class Person
     {
-        int _currentFloor;
-        int _destinationFloor;
-        int _weight;
+        private int _currentFloor;
+        private int _destinationFloor;
+        private string _name;
+        private int _weight;
         Direction direction;
 
         public int CurrentFloor { get => _currentFloor; }
         public int DestinationFloor { get => _destinationFloor; }
 
-        public Person(string name, int floor, int weight)
+        public Person(string name, int floor, int toFloor, int weight)
         {
             _name = name;
             _weight = weight;
             _currentFloor = floor;
-            _destinationFloor = GetRandomDestinationFloor();
+            _destinationFloor = toFloor;
         }
 
         //private int GetRandomCurrentFloor()
@@ -31,12 +32,12 @@ namespace IntellectualElevator
         //    return randomCurretFloor;
         //}
 
-        private int GetRandomDestinationFloor()
-        {
-            Random random = new Random();
-            int randomDestinationFloor = random.Next(Building.baseFloor, Building.floors);
-            return randomDestinationFloor;
-        }
+        //private int GetRandomDestinationFloor()
+        //{
+        //    Random random = new Random();
+        //    int randomDestinationFloor = random.Next(Building.baseFloor, Building.Floors);
+        //    return randomDestinationFloor;
+        //}
         
         
     }

@@ -19,8 +19,15 @@ namespace IntellectualElevator
         public Elevator(int maxWeight, Building attachedBuilding)
         {
             _maxWeight = maxWeight;
-            _floors = attachedBuilding.floors;
+            _floors = attachedBuilding.Floors;
             _persons = new List<Person>();
+            
+            attachedBuilding.CallElevator += ReactToCall;
+        }
+
+        private void ReactToCall(int fromFloor, Direction direction)
+        {
+            Console.WriteLine($"Request from floor:{fromFloor} to {direction}");
         }
 
         public void MoveUp()
